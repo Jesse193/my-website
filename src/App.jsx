@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { HashRouter, Route, Routes, Link } from "react-router-dom";
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
   return (
     <>
       <section className="bg-gray-900 text-white mt-10 mb-0 min-h-screen">
@@ -85,5 +84,3 @@ function App() {
     </>
   )
 }
-
-export default App
