@@ -15,10 +15,10 @@ const Layout = ()=> {
             </li>
           </ul>
           <a className="inline-flex items-center ml-220 mr-10" target="_blank" rel="noopener" href="https://github.com/Jesse193">
-            <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="src/assets/images/github-mark-white.png" alt="Github" />
+            <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
           </a>
           <a className="inline-flex items-center" target="_blank" rel="noopener" href="https://www.linkedin.com/in/jesse-sorman/">
-            <img className="block h-15" src="src/assets/images/LI-In-Bug.png" alt="Linkedin" />
+            <img className="block h-15" src="images/LI-In-Bug.png" alt="Linkedin" />
           </a>
         </nav>
       </header>
