@@ -26,22 +26,22 @@ export default function Portfolio() {
               Tech Stack
           </div>
           <div className="grid grid-cols-3 place-items-center justify-start *:text-4xl *:w-65 *:h-25 *:mt-8 *:mb-30">
-            <div className="relative bg-[url(src/assets/images/Ruby_logo.svg)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/Ruby_logo.svg)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Ruby</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/Ruby_On_Rails_Logo.svg.png)] bg-cover bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/Ruby_On_Rails_Logo.svg.png)] bg-cover bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Ruby on Rails</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/sinatra_logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/sinatra_logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Sinatra</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/javascript_logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/javascript_logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Javascript</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/google_maps_logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/google_maps_logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Google Maps Platform</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/bootstrap-logo.svg)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/bootstrap-logo.svg)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Bootstrap</div>
             </div>
             <div className="relative bg-[url()] bg-cover bg-center text-center">
@@ -56,25 +56,25 @@ export default function Portfolio() {
           </div>
           <div className="w-150 text-5xl font-extrabold text-center justify-center place-self-center pl-8 mt-15 mb-10">Scroll To See how the App Works</div>
           <div className="w-340 h-260 justify-start place-self-center snap-x overflow-x-auto grid grid-flow-col-dense mb-12 *:snap-center *:text-2xl *:w-340 *:h-220 *:mt-2 *:mb-12">
-            <div className="relative bg-[url(src/assets/images/FoodHaven/FoodHaven_home_page.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/FoodHaven/FoodHaven_home_page.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 120 left-0 right-0 text-center flex items-center justify-center mt-77">Home Page</div>
               <div className="absolute bottom-75 left-300 right-0 text-center items-center justify-center text-green-500 bg-transparent text-4xl bg-transparent font-extrabold mb-35 text-center flex items-center justify-center animate-pulse">
                 →
               </div>
             </div>
-            <div className="relative bg-[url(src/assets/images/FoodHaven/FoodHaven_Market_search.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/FoodHaven/FoodHaven_Market_search.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 120 left-0 right-0 text-center flex items-center justify-center mt-77">Market search from the National Mall</div>
               <div className="absolute bottom-75 left-300 right-0 text-center items-center justify-center text-green-500 bg-transparent text-4xl bg-transparent font-extrabold mb-35 text-center flex items-center justify-center animate-pulse">
                 →
               </div>
             </div>
-            <div className="relative bg-[url(src/assets/images/FoodHaven/FoodHaven_Market_search_results.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/FoodHaven/FoodHaven_Market_search_results.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 120 left-0 right-0 text-center flex items-center justify-center mt-77">Search results</div>
               <div className="absolute bottom-75 left-300 right-0 text-center items-center justify-center text-green-500 bg-transparent text-4xl bg-transparent font-extrabold mb-35 text-center flex items-center justify-center animate-pulse">
                 →
               </div>
             </div>
-            <div className="relative bg-[url(src/assets/images/FoodHaven/FoodHaven_Directions.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/FoodHaven/FoodHaven_Directions.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 120 left-0 right-0 text-center flex items-center justify-center mt-77">Directions to chosen market using Google Maps Platform</div>
             </div>
           </div>
@@ -96,13 +96,13 @@ export default function Portfolio() {
               Tech Stack
           </div>
           <div className="grid grid-cols-3 place-items-center justify-start *:text-4xl *:w-65 *:h-25 *:mt-8 *:mb-30">
-            <div className="relative bg-[url(src/assets/images/Ruby_logo.svg)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/Ruby_logo.svg)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Ruby</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/Ruby_On_Rails_Logo.svg.png)] bg-cover bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/Ruby_On_Rails_Logo.svg.png)] bg-cover bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Ruby on Rails</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/javascript_logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/javascript_logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Javascript</div>
             </div>
           </div>
@@ -121,10 +121,10 @@ export default function Portfolio() {
               Tech Stack
           </div>
           <div className="grid grid-cols-3 place-items-center justify-start *:text-4xl *:w-65 *:h-25 *:mt-8 *:mb-30">
-            <div className="relative bg-[url(src/assets/images/Logo_C_sharp.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/Logo_C_sharp.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">C#</div>
             </div>
-            <div className="relative bg-[url(src/assets/images/NET_Core_Logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(/src/assets/images/NET_Core_Logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">ASP.Net</div>
             </div>
           </div>
