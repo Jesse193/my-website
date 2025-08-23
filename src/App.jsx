@@ -22,19 +22,19 @@ export default function App() {
             Languages:
           </p>
           <div className="flex space-x-25 justify-start *:text-4xl *:transition *:delay-100 *:duration-300 *:ease-in-out *:hover:-translate-y-1 *:hover:scale-110 *:w-65 *:h-25 *:mt-8 *:mb-30 pl-15">
-            <div className="relative bg-[url(/src/assets/images/Ruby_logo.svg)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/Ruby_logo.svg)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Ruby</div>
             </div>
-            <div className="relative bg-[url(/src/assets/images/javascript_logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/javascript_logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Javascript</div>
             </div>
-            <div className="relative bg-[url(/src/assets/images/Sql_logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/Sql_logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">SQL</div>
             </div>
-            <div className="relative bg-[url(/src/assets/images/Logo_C_sharp.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/Logo_C_sharp.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">C#</div>
             </div>
-            <div className="relative bg-[url(/src/assets/images/NET_Core_Logo.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/NET_Core_Logo.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">ASP.Net</div>
             </div>
           </div>
@@ -42,12 +42,12 @@ export default function App() {
             Frameworks & Libraries:
           </p>
           <div className="flex flex-wrap space-x-25 justify-start *:text-4xl *:transition *:delay-100 *:duration-300 *:ease-in-out *:hover:-translate-y-1 *:hover:scale-110 *:w-65 *:h-25 *:mt-8 *:mb-30 pl-15">
-            <div className="relative bg-[url(/src/assets/images/Ruby_On_Rails_Logo.svg.png)] bg-cover bg-center text-center">
+            <div className="relative bg-[url(images/Ruby_On_Rails_Logo.svg.png)] bg-cover bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Ruby on Rails</div>
             </div>
             <div className="text-center flex items-center justify-center">ActiveRecord</div>
             <div className="text-center flex items-center justify-center">RSpec</div>
-            <div className="relative bg-[url(/src/assets/images/React-icon.svg.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/React-icon.svg.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">React</div>
             </div>
           </div>
@@ -61,19 +61,19 @@ export default function App() {
             <div className="text-center flex items-center justify-center">Test-Driven Development</div>
             <div className="text-center flex items-center justify-center">RESTful APIs</div>
             <div className="text-center flex items-center justify-center">Authentication & Authorization</div>
-            <div className="relative bg-[url(/src/assets/images/Git-Logo.svg)] bg-size-[auto_90px] bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/Git-Logo.svg)] bg-size-[auto_90px] bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Git</div>
             </div>
-            <div className="relative bg-[url(/src/assets/images/github-mark-white.png)] bg-contain bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/github-mark-white.png)] bg-contain bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">GitHub</div>
             </div>
             <div className="text-center flex items-center justify-center">Postman</div>
             <div className="text-center flex items-center justify-center">Postico</div>
             <div className="text-center flex items-center justify-center">CI/CD</div>
-            <div className="relative bg-[url(/src/assets/images/Render-logomark-White.svg)] bg-size-[auto_190px] bg-no-repeat bg-center text-center">
+            <div className="relative bg-[url(images/Render-logomark-White.svg)] bg-size-[auto_190px] bg-no-repeat bg-center text-center">
               <div className="absolute bottom-0 top-25 left-0 right-0 text-center flex items-center justify-center mt-12">Render</div>
             </div>
-            <div className="relative bg-[url(/src/assets/images/Heroku-Logo-Dark-RGB.svg)] bg-cover bg-no-repeat bg-center text-center"></div>
+            <div className="relative bg-[url(images/Heroku-Logo-Dark-RGB.svg)] bg-cover bg-no-repeat bg-center text-center"></div>
             <div className="text-center flex items-center justify-center">AWS - Elastic Beanstalk</div>
             <div className="text-center flex items-center justify-center">AWS - EC2</div>
             <div className="text-center flex items-center justify-center">AWS - RDS</div>
