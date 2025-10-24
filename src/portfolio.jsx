@@ -82,9 +82,6 @@ export default function Portfolio() {
             <a className="inline-flex items-center justify-center" target="_blank" rel="noopener" href="https://github.com/orgs/GratefulTogether/repositories">
               <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
             </a>
-            <a target="_blank" rel="noopener" className="underline decoration-sky-500" href="https://gratefultogether.vercel.app/">
-              Grateful Together
-            </a>
           </div>
           <div className="justify-start flex-wrap text-1xl w-150 ml-20 mt-10">
             Grateful Together is an app that allows users to post into a community jounal for things that they're grateful for using webhooks and cross origin resource sharing.
