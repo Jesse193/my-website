@@ -15,9 +15,6 @@ export default function Portfolio() {
             <a className="inline-flex items-center justify-center" target="_blank" rel="noopener" href="https://github.com/orgs/FoodHaven/repositories">
               <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
             </a>
-            <a target="_blank" rel="noopener" className="underline decoration-sky-500" href="https://foodhaven-u4d9.onrender.com/">
-              FoodHaven
-            </a>
           </div>
           <div className="justify-start flex-wrap text-1xl w-150 ml-20 mt-10">
             FoodHaven is an app that allows users to search for Farmers' markets that accept SNAP and EBT benefits then find directions to them using Google Maps Platform.
