@@ -7,19 +7,23 @@ const Layout = ()=> {
   return (
     <div>
       <header>
-        <nav className="bg-gray-800 mb-0 h-10 mt-10 mb-0 w-full inline-flex items-center text-white">
-          <ul>
-            <li className="space-x-20 ml-20 text-2xl">
+        <nav className="relative bg-gray-800 text-white flex flex-wrap justify-between w-screen h-20">
+          <div className="text-xl absolute flex flex-wrap items-center justify-start left-1/25 top-1/2 space-x-10">
+            <a>
               <NavLink to="/" end>Home</NavLink>
+            </a>
+            <a>
               <NavLink to="/portfolio" end>Portfolio</NavLink>
-            </li>
-          </ul>
-          <a className="inline-flex items-center ml-220 mr-10" target="_blank" rel="noopener" href="https://github.com/Jesse193">
-            <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
-          </a>
-          <a className="inline-flex items-center" target="_blank" rel="noopener" href="https://www.linkedin.com/in/jesse-sorman/">
-            <img className="block h-15" src="images/LI-In-Bug.png" alt="Linkedin" />
-          </a>
+            </a>
+          </div>
+          <div className="absolute flex flex-wrap items-center justify-end right-1/25 top-1/3 space-x-5">
+            <a target="_blank" rel="noopener" href="https://github.com/Jesse193">
+              <img className="h-15 object-center rounded-full" src="images/github-mark-white.png" alt="Github" />
+            </a>
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jesse-sorman/">
+              <img className="h-15" src="images/LI-In-Bug.png" alt="Linkedin" />
+            </a>
+          </div>
         </nav>
       </header>
       <Outlet />
