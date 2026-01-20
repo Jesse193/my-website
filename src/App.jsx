@@ -12,10 +12,10 @@ export default function App() {
             Welcome to My Website
           </p>
           <article className="md:text-wrap w-screen md:w-screen lg:max-2xl:w-screen lg:max-2xl:*:pl-15 *:mb-10">
-            <p className="text-2xl md:text-3xl/12 xl:text-4xl 2xl:text-6xl font-extrabold mt-15 lg:max-md:text-center place-self-center md:w-3/5 lg:w-3/5 xl:max-2xl:w-3/4">
+            <p className="text-2xl md:text-3xl/12 xl:text-4xl 2xl:text-6xl font-extrabold mt-15 text-center lg:max-md:text-center place-self-center md:w-3/5 lg:w-3/5 xl:max-2xl:w-3/4">
               I'm Jesse and I'm a Software Engineer
             </p>
-            <p className="text-lg/8 md:text-3xl/15 lg:text-2xl/12 xl:text-4xl/15 2xl:text-5xl/25 indent-8 h-180 w-9/10 md:w-1/8 md:w-8/9 md:h-full place-self-center text-wrap">
+            <p className="text-lg/8 md:text-3xl/15 lg:text-2xl/12 xl:text-4xl/15 2xl:text-5xl/25 indent-8 h-auto w-9/10 md:w-1/8 md:w-8/9 md:h-full place-self-center text-wrap">
               I'm a graduate of Turing School of Software & Design from their Back-end software engineering program. 
               I have skills to work with Ruby, Ruby on Rails, ActiveReocrd, SQL, REST APIs, git, Test-Driven Development, AWS, and more. 
               My past experience has built me to be a problem solver, a hard worker, and a team player. 
