@@ -14,10 +14,10 @@ export default function Portfolio() {
           <div className="w-screen md:w-150 text-3xl md:text-5xl font-extrabold pl-8 mt-0 pt-10 mb-15 mt-10">FoodHaven</div>
           <div className="flex flex-wrap space-x-10 justify-start *:text-2xl pl-15">
             <a className="inline-flex items-center justify-center" target="_blank" rel="noopener" href="https://github.com/orgs/FoodHaven/repositories">
-              <img className="mx-auto block h-15 md:h-20 ounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
+              <img className="mx-auto block h-15 md:h-20 lg:h-20 ounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
             </a>
           </div>
-          <div className="justify-center place-self-center text-center md:justify-start flex-wrap text-xl md:text-2xl w-3/4 md:w-3/4 md:ml-20 mt-10">
+          <div className="justify-center place-self-center text-center md:justify-start flex-wrap text-xl md:text-2xl lg:text-3xl w-3/4 md:w-3/4 md:ml-20 mt-10">
             FoodHaven is an app that allows users to search for Farmers' markets that accept SNAP and EBT benefits then find directions to them using Google Maps Platform.
           </div>
           <div className="text-5xl text-blue-500 font-extrabold md:pl-15 mt-10 text-center">
@@ -89,30 +89,30 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="carousel snap-x snap-mandatory overflow-hidden grid grid-flow-col-dense grid-cols-auto grid-rows-1 *:text-2xl *:w-screen *:h-100 md:*:h-10 md:*:h-180 *:mt-20 md:*:mt-8 h-150 w-screen md:mt-10">
-            <div id="fooddemo1" className="relative bg-[url(/images/FoodHaven/FoodHaven_home_page.png)] bg-size-[300px] md:bg-size-[600px] bg-no-repeat bg-center text-center">
-              <div className="absolute bottom-0 top-1/1 md:top-100 left-0 right-0 text-center flex items-center justify-center place-self-center">Home Page</div>
-              <div className="caraousel absolute right-2 md:right-1/16 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 *:w-12 md:*:w-15 *:rounded-full text-4xl *:bg-blue-500">
+          <div className="carousel snap-x snap-mandatory overflow-hidden grid grid-flow-col-dense grid-cols-auto grid-rows-1 *:text-2xl lg:*:text-4xl *:w-screen *:h-100 md:*:h-10 md:*:h-180 lg:*:h-full *:mt-20 md:*:mt-8 h-150 lg:h-200 w-screen md:mt-10">
+            <div id="fooddemo1" className="relative bg-[url(/images/FoodHaven/FoodHaven_home_page.png)] bg-size-[300px] md:bg-size-[600px] lg:bg-size-[800px] bg-no-repeat bg-center text-center">
+              <div className="absolute bottom-0 top-1/1 md:top-100 lg:top-200 left-0 right-0 text-center flex items-center justify-center place-self-center">Home Page</div>
+              <div className="caraousel absolute right-2 md:right-1/16 lg:right-1/64 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 lg:*:h-20 *:w-12 md:*:w-15 lg:*:w-20 *:rounded-full text-4xl lg:*:text-5xl *:bg-blue-500">
                 <button onClick={() => scrollToId('fooddemo2')} className="btn btn-circle">&#8250;</button>
               </div>
             </div>
-            <div id="fooddemo2" className="relative bg-[url(/images/FoodHaven/FoodHaven_Market_search.png)] bg-size-[300px] md:bg-size-[600px] bg-no-repeat bg-center text-center">
-              <div className="absolute bottom-0 top-1/1 md:top-100 left-0 right-0 text-center flex items-center justify-center w-3/4 place-self-center">Market search from the National Mall</div>
-              <div className="caraousel absolute left-2 md:left-1/16 right-2 md:right-1/16 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 *:w-12 md:*:w-15 *:rounded-full text-4xl *:bg-blue-500">
+            <div id="fooddemo2" className="relative bg-[url(/images/FoodHaven/FoodHaven_Market_search.png)] bg-size-[300px] md:bg-size-[600px] lg:bg-size-[800px] bg-no-repeat bg-center text-center">
+              <div className="absolute bottom-0 top-1/1 md:top-100 lg:top-200 left-0 right-0 text-center flex items-center justify-center w-3/4 place-self-center">Market search from the National Mall</div>
+              <div className="caraousel absolute left-2 md:left-1/16 lg:left-1/64 right-2 md:right-1/16 lg:right-1/64 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 lg:*:h-20 *:w-12 md:*:w-15 lg:*:w-20 *:rounded-full text-4xl lg:*:text-5xl *:bg-blue-500">
                 <button onClick={() => scrollToId('fooddemo1')} className="btn btn-circle">&#8249;</button>
                 <button onClick={() => scrollToId('fooddemo3')} className="btn btn-circle">&#8250;</button>
               </div>
             </div>
-            <div id="fooddemo3" className="relative bg-[url(/images/FoodHaven/FoodHaven_Market_search_results.png)] bg-size-[300px] md:bg-size-[600px] bg-no-repeat bg-center text-center">
-              <div className="absolute bottom-0 top-1/1 md:top-100 left-0 right-0 text-center flex items-center justify-center place-self-center">Search results</div>
-              <div className="caraousel absolute left-2 md:left-1/16 right-2 md:right-1/16 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 *:w-12 md:*:w-15 *:rounded-full text-4xl *:bg-blue-500">
+            <div id="fooddemo3" className="relative bg-[url(/images/FoodHaven/FoodHaven_Market_search_results.png)] bg-size-[300px] md:bg-size-[600px] lg:bg-size-[800px] bg-no-repeat bg-center text-center">
+              <div className="absolute bottom-0 top-1/1 md:top-100 lg:top-200 left-0 right-0 text-center flex items-center justify-center place-self-center">Search results</div>
+              <div className="caraousel absolute left-2 md:left-1/16 lg:left-1/64 right-2 md:right-1/16 lg:right-1/64 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 lg:*:h-20 *:w-12 md:*:w-15 lg:*:w-20 *:rounded-full text-4xl lg:*:text-5xl *:bg-blue-500">
                 <button onClick={() => scrollToId('fooddemo2')} className="btn btn-circle">&#8249;</button>
                 <button onClick={() => scrollToId('fooddemo4')} className="btn btn-circle">&#8250;</button>
               </div>
             </div>
-            <div id="fooddemo4" className="relative bg-[url(/images/FoodHaven/FoodHaven_Directions.png)] bg-size-[300px] md:bg-size-[600px] bg-no-repeat bg-center text-center">
-              <div className="absolute bottom-0 top-1/1 md:top-100 left-0 right-0 text-center flex items-center justify-center w-3/4 place-self-center">Directions to chosen market using Google Maps Platform</div>
-              <div className="caraousel absolute left-2 md:left-1/16 right-2 md:right-1/16 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 *:w-12 md:*:w-15 *:rounded-full text-4xl *:bg-blue-500">
+            <div id="fooddemo4" className="relative bg-[url(/images/FoodHaven/FoodHaven_Directions.png)] bg-size-[300px] md:bg-size-[600px] lg:bg-size-[800px] bg-no-repeat bg-center text-center">
+              <div className="absolute bottom-0 top-1/1 md:top-100 lg:top-200 left-0 right-0 text-center flex items-center justify-center w-3/4 place-self-center">Directions to chosen market using Google Maps Platform</div>
+              <div className="caraousel absolute left-2 md:left-1/16 lg:left-1/64 right-2 md:right-1/16 lg:right-1/64 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 md:*:h-15 lg:*:h-20 *:w-12 md:*:w-15 lg:*:w-20 *:rounded-full text-4xl lg:*:text-5xl *:bg-blue-500">
                 <button onClick={() => scrollToId('fooddemo3')} className="btn btn-circle">&#8249;</button>
                 <button onClick={() => scrollToId('fooddemo1')} className="btn btn-circle">&#8250;</button>
               </div>
@@ -123,10 +123,10 @@ export default function Portfolio() {
           <div className="w-screen md:w-150 text-3xl md:text-5xl font-extrabold pl-8 mt-20 mb-10">Grateful Together</div>
           <div className="flex flex-wrap space-x-10 justify-start *:text-2xl pl-15">
             <a className="inline-flex items-center justify-center" target="_blank" rel="noopener" href="https://github.com/orgs/GratefulTogether/repositories">
-              <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
+              <img className="mx-auto block h-15 md:h-20 lg:h-20 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
             </a>
           </div>
-          <div className="justify-center place-self-center text-center md:justify-start flex-wrap text-xl md:text-2xl w-3/4 md:w-3/4 md:ml-20 mt-10">
+          <div className="justify-center place-self-center text-center md:justify-start flex-wrap text-xl md:text-2xl lg:text-3xl w-3/4 md:w-3/4 md:ml-20 mt-10">
             Grateful Together is an app that allows users to post into a community jounal for things that they're grateful for using webhooks and cross origin resource sharing.
           </div>
           <div className="text-5xl text-blue-500 font-extrabold md:pl-15 mt-10 text-center">
@@ -160,10 +160,10 @@ export default function Portfolio() {
           <div className="w-1/2 md:w-screen md:w-150 text-3xl md:text-5xl font-extrabold pl-8 mt-5 md:mt-45 mb-10">Lego Inventory Manager</div>
           <div className="flex flex-wrap space-x-10 justify-start *:text-2xl pl-15">
             <a className="inline-flex items-center justify-center" target="_blank" rel="noopener" href="https://github.com/Jesse193/Lego-Inventory-Manager">
-              <img className="mx-auto block h-15 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
+              <img className="mx-auto block h-15 md:h-20 lg:h-20 rounded-full sm:mx-0 sm:shrink-0" src="images/github-mark-white.png" alt="Github" />
             </a>
           </div>
-          <div className="justify-center place-self-center text-center md:justify-start flex-wrap text-xl md:text-2xl w-3/4 md:w-3/4 md:ml-20 mt-10">
+          <div className="justify-center place-self-center text-center md:justify-start flex-wrap text-xl md:text-2xl lg:text-3xl w-3/4 md:w-3/4 md:ml-20 mt-10">
             Lego Inventory Manager is an app that allows users to add/remove Lego parts and sets to their own created lists using Rebrickable's API.
           </div>
           <div className="text-5xl text-blue-500 font-extrabold md:pl-15 mt-10 text-center">
