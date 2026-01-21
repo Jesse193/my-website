@@ -200,7 +200,7 @@ export default function App() {
                 <button onClick={() => scrollToId('tool12')} className="btn btn-circle">&#8250;</button>
               </div>
             </div>
-            <div id="tool12" className="sm:max-2xl:carousel-item sm:max-2xl:w-full relative  snap-center">
+            <div id="tool12" className="sm:max-2xl:carousel-item sm:max-2xl:w-full relative snap-center">
               <div className="absolute bottom-0 top-0 sm:max-2xl:top-1/2 left-0 right-0 place-self-center text-center w-1/2 md:w-full 2xl:text-5xl">AWS - EC2</div>
               <div className="sm:max-2xl:hidden 2xl:hidden caraousel absolute left-1/8 right-1/8 top-1/2 flex -translate-y-1/2 transform justify-between *:h-12 *:w-12 *:rounded-full *:bg-blue-500">
                 <button onClick={() => scrollToId('tool11')} className="btn btn-circle">&#8249;</button>
