@@ -4,3 +4,18 @@ html,
 body {
   @apply bg-gray-800;
 }
+
+#carouselcontrols {
+@apply 
+sm:max-2xl:hidden
+absolute
+w-8/10
+flex
+justify-between
+-translate-y-1/1
+*:h-12
+*:w-12
+*:rounded-full
+*:bg-blue-500
+top-1/2;
+}
