@@ -161,7 +161,7 @@ export default function Portfolio() {
                 <img src="images/Ruby_logo.svg" className="absolute bottom-1/1 w-auto h-[100px] lg:h-[120px] xl:h-[130px] 2xl:h-[160px]"></img>
                 <p className='absolute text-center top-1/1 mt-5'>Ruby</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('grateful9')} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId('grateful3')} className="btn btn-circle">&#8249;</button>
                   <button onClick={() => scrollToId('grateful2')} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
