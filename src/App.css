@@ -7,15 +7,14 @@ body {
 
 #carouselcontrols {
 @apply 
-sm:max-2xl:hidden
 absolute
-w-8/10
+sm:max-2xl:hidden
+2xl:hidden
+w-90
 flex
 justify-between
--translate-y-1/1
 *:h-12
 *:w-12
 *:rounded-full
 *:bg-blue-500
-top-1/2;
 }
