@@ -8,8 +8,7 @@ body {
 #carouselcontrols {
 @apply 
 absolute
-sm:max-2xl:hidden
-2xl:hidden
+md:hidden
 w-90
 flex
 justify-between
