@@ -7,21 +7,17 @@ const Layout = ()=> {
   return (
     <div>
       <header>
-        <nav className="relative bg-gray-800 text-white flex flex-wrap justify-between w-screen h-20 md:h-20 lg:h-30 xl:h-40 2xl:h-60">
-          <div className="text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-6xl absolute flex flex-wrap items-center justify-start left-1/25 top-1/2 space-x-10 lg:space-x-15 xl:space-x-20 2xl:space-x-30">
-            <a>
-              <NavLink to="/" end>Home</NavLink>
-            </a>
-            <a>
-              <NavLink to="/portfolio" end>Portfolio</NavLink>
-            </a>
+        <nav className="relative bg-gray-800 text-white flex flex-wrap justify-between w-screen h-[clamp(2rem,2vh,50rem)] mt-[clamp(3rem,1vh,5rem)] mb-[clamp(3rem,1vh,5rem)]">
+          <div className="text-[clamp(1.5rem,1.5vw,3rem)] absolute flex flex-wrap items-center justify-start place-self-center left-1/25 gap-[clamp(2rem,1vh,3rem)]">
+            <NavLink to="/" end>Home</NavLink>
+            <NavLink to="/portfolio" end>Portfolio</NavLink>
           </div>
-          <div className="absolute flex flex-wrap items-center justify-end right-1/25 top-1/3 space-x-5 md:space-x-15 lg:space-x-15 xl:space-x-20 2xl:space-x-30">
+          <div className="absolute flex flex-wrap items-center place-self-center justify-end right-1/25 gap-[clamp(2rem,1vh,3rem)]">
             <a target="_blank" rel="noopener" href="https://github.com/Jesse193">
-              <img className="h-15 lg:h-20 xl:h-25 2xl:h-35 rounded-full" src="images/github-mark-white.png" alt="Github" />
+              <img className="w-auto h-[clamp(3rem,3vw,8rem)] rounded-full" src="images/github-mark-white.png" alt="Github" />
             </a>
             <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jesse-sorman/">
-              <img className="h-15 lg:h-20 xl:h-25 2xl:h-35" src="images/LI-In-Bug.png" alt="Linkedin" />
+              <img className="w-auto h-[clamp(3rem,3vw,8rem)]" src="images/LI-In-Bug.png" alt="Linkedin" />
             </a>
           </div>
         </nav>
