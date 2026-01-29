@@ -44,40 +44,40 @@ export default function App() {
             <div id="language1" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/Ruby_logo.svg" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>Ruby</p>
+                <p className="absolute text-center top-1/1 mt-5">Ruby</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('language4')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('language2')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("language4")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("language2")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="language2" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/javascript_logo.png" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>Javascript</p>
+                <p className="absolute text-center top-1/1 mt-5">Javascript</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('language1')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('language3')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("language1")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("language3")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="language3" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/Sql_logo.png" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>SQL</p>
+                <p className="absolute text-center top-1/1 mt-5">SQL</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('language2')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('language4')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("language2")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("language4")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="language4" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/Logo_C_sharp.png" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>C#</p>
+                <p className="absolute text-center top-1/1 mt-5">C#</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('language3')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('language1')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("language3")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("language1")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
@@ -93,48 +93,48 @@ export default function App() {
             <div id="framework1" className="relative sm:max-2xl:carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/Ruby_On_Rails_Logo.svg.png" className="absolute bottom-1/1 w-auto h-[clamp(80px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>Ruby on Rails</p>
+                <p className="absolute text-center top-1/1 mt-5">Ruby on Rails</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('framework5')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('framework2')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("framework5")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("framework2")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="framework2" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>Active Record</p>
+                <p className="text-center">Active Record</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('framework1')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('framework3')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("framework1")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("framework3")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="framework3" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>RSpec</p>
+                <p className="text-center">RSpec</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('framework2')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('framework4')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("framework2")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("framework4")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="framework4" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/React-icon.svg.png" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>React</p>
+                <p className="absolute text-center top-1/1 mt-5">React</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('framework3')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('framework5')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("framework3")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("framework5")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="framework5" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full">
                 <img src="images/NET_Core_Logo.png" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>ASP.NET</p>
+                <p className="absolute text-center top-1/1 mt-5">ASP.NET</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('framework4')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('framework1')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("framework4")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("framework1")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>  
             </div>
@@ -149,122 +149,122 @@ export default function App() {
           <div className="place-items-center justify-items-center *:*:place-self-center caraousel sm:max-2xl:w-full snap-x snap-mandatory overflow-hidden grid grid-flow-col-dense grid-cols-auto grid-rows-1 place-content-evenly gap-[clamp(10vh,15vh,20vh)] md:grid-flow-row-dense md:grid-cols-3 md:grid-rows-6 *:*:text-[clamp(2rem,2vw,4rem)] w-full *:w-screen pt-[clamp(15vh,15vh,20vh)] pb-[clamp(10vh,6vh,15vh)]">
             <div id="tool1" className="relative carousel-item">
               <div className="relative place-self-center flex items-center justify-center w-1/2 md:w-1/4">
-                  <p className='text-center'>Test-Driven Development</p>
+                  <p className="text-center">Test-Driven Development</p>
                   <div id="carouselcontrols">
-                    <button onClick={() => scrollToId('tool13')} className="btn btn-circle">&#8249;</button>
-                    <button onClick={() => scrollToId('tool2')} className="btn btn-circle">&#8250;</button>
+                    <button onClick={() => scrollToId("tool13")} className="btn btn-circle">&#8249;</button>
+                    <button onClick={() => scrollToId("tool2")} className="btn btn-circle">&#8250;</button>
                   </div>
               </div>
             </div>
             <div id="tool2" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>RESTful APIs</p>
+                <p className="text-center">RESTful APIs</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool1')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool3')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool1")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool3")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool3" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>Authentication & Authorization</p>
+                <p className="text-center">Authentication & Authorization</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool2')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool4')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool2")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool4")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool4" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full 2xl:text-5xl">
                 <img src="images/Git-Logo.svg" className="absolute bottom-1/1 w-auto h-[clamp(80px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>Git</p>
-                <div id="carouselcontrols" className='absolute'>
-                  <button onClick={() => scrollToId('tool3')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool5')} className="btn btn-circle">&#8250;</button>
+                <p className="absolute text-center top-1/1 mt-5">Git</p>
+                <div id="carouselcontrols" className="absolute">
+                  <button onClick={() => scrollToId("tool3")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool5")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool5" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full 2xl:text-5xl">
                 <img src="images/github-mark-white.png" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1 mt-5'>GitHub</p>
+                <p className="absolute text-center top-1/1 mt-5">GitHub</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool4')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool6')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool4")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool6")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool6" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>Postman</p>
+                <p className="text-center">Postman</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool5')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool7')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool5")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool7")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool7" className="relative carousel-item"> 
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>Postico</p>
+                <p className="text-center">Postico</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool6')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool8')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool6")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool8")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool8" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>CI/CD</p>
+                <p className="text-center">CI/CD</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool7')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool9')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool7")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool9")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool9" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full 2xl:text-5xl">
-                <p className='absolute text-center top-1/1'>Render</p>
+                <p className="absolute text-center top-1/1">Render</p>
                 <img src="images/Render-logomark-White.svg" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool8')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool10')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool8")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool10")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool10" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4 2xl:w-full 2xl:text-5xl">
                 <img src="images/Heroku-Logo-Dark-RGB.svg" className="absolute bottom-1/1 w-auto h-[clamp(100px,20%,200px)]"></img>
-                <p className='absolute text-center top-1/1'>Heroku</p>
+                <p className="absolute text-center top-1/1">Heroku</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool9')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool11')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool9")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool11")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool11" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>AWS - Elastic Beanstalk</p>
+                <p className="text-center">AWS - Elastic Beanstalk</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool10')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool12')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool10")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool12")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool12" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                <p className='text-center'>AWS - EC2</p>
+                <p className="text-center">AWS - EC2</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool11')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool13')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool11")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool13")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
             <div id="tool13" className="relative carousel-item">
               <div className="flex items-center justify-center w-1/2 md:w-1/4">
-                  <p className='text-center'>AWS - RDS</p>
+                  <p className="text-center">AWS - RDS</p>
                 <div id="carouselcontrols">
-                  <button onClick={() => scrollToId('tool12')} className="btn btn-circle">&#8249;</button>
-                  <button onClick={() => scrollToId('tool1')} className="btn btn-circle">&#8250;</button>
+                  <button onClick={() => scrollToId("tool12")} className="btn btn-circle">&#8249;</button>
+                  <button onClick={() => scrollToId("tool1")} className="btn btn-circle">&#8250;</button>
                 </div>
               </div>
             </div>
