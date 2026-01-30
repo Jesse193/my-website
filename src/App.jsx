@@ -88,14 +88,14 @@ export default function App() {
             </div>
           </div>
         
-          <div className="h-fit md:h-fit">
+          <div className="h-fit md:h-fit 2xl:h-150">
             <p className="hidden md:block text-[clamp(2rem,2vw,3rem)] text-blue-500 font-extrabold ml-[5vw]">
               Frameworks & Libraries:
             </p>
             <p className="md:hidden text-[clamp(3rem,2vw,4rem)] text-blue-500 font-extrabold max-sm:text-center w-auto place-self-center">
               Frameworks & Libraries
             </p>
-            <div className="place-items-center justify-items-center *:*:place-self-center caraousel snap-x snap-mandatory overflow-hidden grid grid-flow-col-dense grid-cols-auto grid-rows-1 gap-x-1 md:min-lg:grid-flow-row-dense md:grid-cols-3 md:grid-rows-2 *:text-[clamp(2rem,2vw,4rem)] *:w-screen h-svw md:h-screen">
+            <div className="place-items-center justify-items-center *:*:place-self-center caraousel snap-x snap-mandatory overflow-hidden grid grid-flow-col-dense grid-cols-auto grid-rows-1 gap-x-1 md:min-lg:grid-flow-row-dense md:grid-cols-3 md:grid-rows-2 2xl:grid-cols-5 2xl:grid-rows-1 *:text-[clamp(2rem,2vw,4rem)] *:w-screen h-svw md:h-screen 2xl:h-full">
               <div id="framework1" className="relative carousel-item">
                 <div className="flex items-center justify-center w-auto">
                   <img src="images/Ruby_On_Rails_Logo.svg.png" className="absolute bottom-1/1 w-auto h-[clamp(80px,20%,200px)]"></img>
