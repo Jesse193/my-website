@@ -11,6 +11,7 @@ const Layout = ()=> {
           <div className="text-[clamp(1.5rem,1.5vw,3rem)] absolute flex flex-wrap items-center justify-start place-self-center left-1/25 gap-[clamp(2rem,1vh,3rem)]">
             <NavLink to="/" end>Home</NavLink>
             <NavLink to="/portfolio" end>Portfolio</NavLink>
+            <NavLink to="/contact" end>Contact</NavLink>
           </div>
           <div className="absolute flex flex-wrap items-center place-self-center justify-end right-1/25 gap-[clamp(2rem,1vh,3rem)]">
             <a target="_blank" rel="noopener" href="https://github.com/Jesse193">
