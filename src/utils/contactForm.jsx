@@ -44,7 +44,10 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <input type="text" name="_gotcha" style="display:none" /> 
+      <textarea className="invisible" 
+        type="text" 
+        name="_gotcha" 
+      /> 
       <div className="pb-5 pt-10">
         <button className="justify-center bg-green-500 rounded-md h-[2vw] w-[6vw]" type="submit" disabled={state.submitting}>
           Submit
