@@ -10,8 +10,8 @@ const Layout = ()=> {
     <div>
       <header>
         <nav className="relative bg-gray-800 text-white flex flex-wrap justify-between w-screen h-[clamp(2rem,2vh,50rem)] mt-[clamp(3rem,1vh,5rem)] mb-[clamp(3rem,1vh,5rem)]">
-          <div id="dropdown" className="block md:hidden absolute flex flex-wrap place-self-center mb-7">
-            <button id="dropbtn" onClick={() => dropDown()}  className="md:hidden text-5xl ml-[10vw]">
+          <div id="dropdown" className="block sm:hidden absolute flex flex-wrap place-self-center mb-7">
+            <button id="dropbtn" onClick={() => dropDown()}  className="sm:hidden text-5xl ml-[10vw]">
               &#8964;
             </button>
             <div id="dropdownContent" className="hidden bg-gray-500 border-1 border-black absolute top-1/1 flex flex-col items-center justify-center space-y-4 divide-y-2 divide-black w-50 mt-[1vw] pt-[2vw] *:justify-center *:text-3xl">
