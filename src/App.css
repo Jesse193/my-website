@@ -17,3 +17,7 @@ justify-between
 *:rounded-full
 *:bg-blue-500
 }
+
+.show {
+  display: block;
+}
