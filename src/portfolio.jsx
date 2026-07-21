@@ -125,9 +125,6 @@ export default function Portfolio() {
                     <button onClick={() => scrollToId("fooddemo2")} className="btn btn-circle rounded-full pointer-events-auto bg-blue-500 hover:bg-blue-600 border-none text-white backdrop-blur-sm shadow-lgw-[3vh] sm:w-[4vh] md:w-[5vh] lg:w-[6vh] h-[3vh] sm:h-[4vh] md:h-[5vh] lg:h-[6vh] aspect-square p-0 flex items-center justify-center">
                       &#8249;
                     </button>
-                    <button onClick={() => scrollToId("fooddemo4")} className="btn btn-circle rounded-full pointer-events-auto bg-blue-500 hover:bg-blue-600 border-none text-white backdrop-blur-sm shadow-lgw-[3vh] sm:w-[4vh] md:w-[5vh] lg:w-[6vh] h-[3vh] sm:h-[4vh] md:h-[5vh] lg:h-[6vh] aspect-square p-0 flex items-center justify-center">
-                      &#8250;
-                    </button>
                   </div>
                 </div>
               </div>
